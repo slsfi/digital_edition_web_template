@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  app:
+    restart: unless-stopped
+    ports:
+      - "2087:80"
+    volumes:
+      - ./project_files_web/:/project_files_web
+      - ./project_files_web/config-sample.json:/var/www/config.json
+      - ./project_files_web/assets/custom_css:/var/www/assets/custom_css
+      - ./project_files_web/assets/images:/var/www/assets/images
+      - ./project_files_web/assets/artiklar:/var/www/assets/artiklar
+      - ./project_files_web/assets/jpeg-files:/var/www/assets/jpeg-files
+    build:
+      context: .
+
+    

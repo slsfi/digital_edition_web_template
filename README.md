@@ -1,6 +1,8 @@
 # Template for Generic Digital Editions Web Interface
 
-## Uses Docker image
+Just run docker-compose up -d --build (get docker [Docker](https://www.docker.com/get-started))
+
+## Uses a Docker Image
 [https://cloud.docker.com/u/slsfinland/repository/docker/slsfinland/digital_edition_web](https://cloud.docker.com/u/slsfinland/repository/docker/slsfinland/digital_edition_web)
 
 ## Needs an API

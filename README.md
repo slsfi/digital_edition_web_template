@@ -5,3 +5,6 @@
 
 ## Needs an API
 [https://github.com/slsfi/sls_gde_api](https://github.com/slsfi/sls_gde_api)
+
+## The API needs a database
+https://github.com/slsfi/digital_edition_web_db
